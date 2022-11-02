@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gh0stbadb0y.support</groupId>
+    <artifactId>gh0stbadb0y-develop-support</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>Develop support demo</name>
+    <description>Demo project for develop</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <!-- {easy-es} : springboot集成easy-es -->
+        <module>component-001-easy-es-springboot-demo</module>
+    </modules>
+</project>
