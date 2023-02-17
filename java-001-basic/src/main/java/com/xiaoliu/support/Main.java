@@ -1,4 +1,4 @@
-package com.xiaoliucoding.support;
+package com.xiaoliu.support;
 
 public class Main {
     public static void main(String[] args) {
