@@ -5,6 +5,9 @@ package com.xiaoliu.support.newObject;
  */
 public class Client04 {
     public static void main(String[] args) {
+        /**
+         * 通过链式调用的方式创建Person对象，非常优雅！
+         */
         Person04 person04 = new Person04
                 .Builder("xiaoliu",25)
                 .setHeight(175)
