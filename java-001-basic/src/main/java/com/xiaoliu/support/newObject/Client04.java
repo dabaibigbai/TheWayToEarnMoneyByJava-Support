@@ -16,5 +16,6 @@ public class Client04 {
                 .build();
         person04.doSomeThing();
 
+        StringBuilder sb = new StringBuilder();
     }
 }
